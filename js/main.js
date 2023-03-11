@@ -127,7 +127,6 @@ function updateResult(){
             document.querySelector('audio').play();
 
             if(document.querySelector('.notification')){
-                console.log('test')
                 setTimeout(() => {
                     document.querySelector('.notification').classList.remove('notification');
                     document.querySelector('audio').remove();
