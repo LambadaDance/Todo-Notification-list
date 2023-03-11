@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +10,37 @@
 </head>
 <body>
     
-
-
+    <div class="container">
+        <div class="list">
+            <div class="logo__pic">
+                <img class="logo__img" src="img/favicon.png" alt="">
+            </div>
+            <p class="error"></p>
+            <div class="add__new">
+                <input class="time" type="time">
+                <input class="message" type="text" maxlength="50" placeholder="Введите сообщение" size="35">
+                <button class="submit">Добавить</button>
+            </div>
+            <div class="todo">
+                <div class="title">Список дел</div>
+                <div class="result__title">
+                    <div class="result__title__time">Время</div>
+                    <div class="result__title__message">Сообщение</div>
+                    <div class="result__title__status">Статус</div>
+                </div>              
+                    <div class="result__items">
+   
+                    </div>   
+                <div class="delete__all">
+                        <button class="delete__all_btn">Очистить список</button>
+                </div> 
+            </div>
+            
+        </div>
+    </div>
 
 
     <script src="js/main.js"></script>
 </body>
 </html>
+
