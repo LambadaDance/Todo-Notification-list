@@ -122,7 +122,7 @@ function updateResult(){
         setTimeout(() => {
             document.querySelector(`[data-key*="${array[i][0]}"]`).classList.add('notification');
             document.querySelector(`[data-key*="${array[i][0]}"]`).insertAdjacentHTML('beforeend', `
-            <audio data-not="${notTime[0]}${notTime[1]}" loop><source src="./source/Notification.mp3" type="audio/mpeg"></audio>
+            <audio data-not="${notTime[0]}${notTime[1]}" loop><source src="https://lambadadance.github.io/Todo-Notification-list/source/Notification.mp3" type="audio/mpeg"></audio>
             `);
             document.querySelector('audio').play();
 
